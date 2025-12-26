@@ -1,5 +1,0 @@
-h1. Reporting Security Vulnerabilities
-
-p. Please reach out via "Discord":https://discord.alternerd.tv if you encounter security vulneraabilities (alternerdtive) instead of filing a publicly accessible issue.
-
-p. All reported vulnerabilities will be credited in the commit message and release notes as soon as they are fixed.
