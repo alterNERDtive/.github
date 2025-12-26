@@ -1,0 +1,40 @@
+name: Feature Request
+description: File a feature request.
+title: "[Feature Request]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: checkboxes
+    id: requirements
+    attributes:
+      label: Basic Troubleshooting Steps
+      description: Please confirm that you have taken these basic troubleshooting steps.
+      options:
+        - label: The feature does not exist in the latest release.
+          required: true
+        - label: The feature does not exist in the latest development version (`main` or `develop` branch).
+          required: true
+        - label: I have searched the existing issues for this feature request and it has not been requested yet.
+          required: true
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: What feature do you want to see implemented?
+      description: Please be as concise as possible while not omitting any relevant information.
+    validations:
+      required: true
+  - type: textarea
+    id: other-options
+    attributes:
+      label: What are the alternatives to implementing this?
+      description: Please include both workarounds that already exist, and alternative ways of implementing your request.
+    validations:
+      required: true
+  - type: textarea
+    id: extra-info
+    attributes:
+      label: Do you have any extra information that could be useful?
+      description: Add anything else that might be useful here.
