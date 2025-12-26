@@ -1,0 +1,8 @@
+h1. Code of Conduct
+
+p. I will assume that we are all adults here. Therefore, the rules are quite simple:
+
+# Don’t be a dick. I do not tolerate toxic behaviour.
+# Stay on topic. Stay factual.
+
+p. You will receive 1 (one) warning.

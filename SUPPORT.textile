@@ -1,0 +1,5 @@
+h1. Support
+
+p. This is a personal project and is offered without any expectation of support.
+
+p. That said, you can always ask in "Discord":https://discord.alternerd.tv. Please keep it to the appropriate channel. If there is no channel for this project, asking in general chat is fine.

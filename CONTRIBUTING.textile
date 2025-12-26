@@ -1,0 +1,21 @@
+h1. Contributing Guidelines
+
+p. *Note:* When referring to the “main” branch, this usually means the literal @main@ branch of the repository. If there is no @main@ branch, then the project is most likely old enough to still have seperate @release@ and @develop@/@devel@ branches. In that case, “main” refers to the branch named @develop@ or @devel@.
+
+h2. Create Pull Requests to the Main Branch
+
+p. Submit your pull requests to the main branch of the repository (see note above).
+
+h2. One Change, One Commit
+
+p. Generally speaking, your pull requests should be a single commit. E.g. changes to localisation files should be in the same commit as the code that references them.
+
+p. Should your change include required changes to existing code, contain those to one commit and then make your actual changes on top of that. For example let us assume that the project is using hard coded strings instead of a localisation file and you want to add a translation: make one commit that moves the strings to a localisation file, then another commit that adds the new language.
+
+h2. Follow the Style
+
+p. Please adhere to the established code style. If you are lucky you will find an editorconfig file in the project root. If not … you will figure it out.
+
+h2. Make Sure it Works
+
+p. When contributing code to the project, you have to make sure it works. If there are tests, add tests for your contributed code and then run the tests.
