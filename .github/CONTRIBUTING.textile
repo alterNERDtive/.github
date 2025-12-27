@@ -1,6 +1,8 @@
 h1. Contributing Guidelines
 
-p. *Note:* When referring to the “main” branch, this usually means the literal @main@ branch of the repository. If there is no @main@ branch, then the project is most likely old enough to still have seperate @release@ and @develop@/@devel@ branches. In that case, “main” refers to the branch named @develop@ or @devel@.
+p. *Note:* When referring to the “main” branch, this usually means the literal @main@ branch of the repository.[1]
+
+fn1^. If there is no @main@ branch, then the project is most likely old enough to still have seperate @release@ and @develop@/@devel@ branches. In that case, “main” refers to the branch named @develop@ or @devel@.
 
 h2. Create Pull Requests to the Main Branch
 
